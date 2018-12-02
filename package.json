@@ -1,22 +1,20 @@
 {
-    "name": "SEAT-ALLOTMENT_JQUERY",
-    "version": "1.0.0",
-    "main": "index.js",
-    "author": "shivam",
-    "license": "",
-    "private": false,
-    "scripts": {
-      "run": "babel es6.js --out-file script.js"
-    },
-    "dependencies": {
-        
-    },
-    "devDependencies": {
-      "babel-cli": "^6.26.0",
-      "babel-core": "^6.26.0",
-      "babel-eslint": "^8.2.1",
-      "babel-plugin-transform-object-rest-spread": "^6.26.0",
-      "babel-preset-env": "^1.6.1"
-    }
+  "name": "SEAT-ALLOTMENT_JQUERY",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "shivam",
+  "license": "",
+  "private": false,
+  "scripts": {
+    "run": "babel --plugins transform-es2015-modules-commonjs es6.js --out-file script.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
   }
-  
+}

@@ -1,4 +1,4 @@
-var data = require('data.json')
+import data from 'data.json'
 var firstSeatLabel = 1;
 		console.log(data);
 $(document).ready(function() {
