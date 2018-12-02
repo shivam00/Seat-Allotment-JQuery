@@ -1,0 +1,27 @@
+{
+    "name": "SEAT-ALLOTMENT_JQUERY",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "shivam",
+    "license": "",
+    "private": false,
+    "scripts": {
+      "run": "babel es6.js --out-file script.js"
+    },
+    "dependencies": {
+      "dotenv": "^4.0.0",
+      "exec": "^0.2.1",
+      "lodash": "^4.17.5",
+      "npm-run-all": "^4.1.2",
+      "puppeteer": "^1.0.0",
+      "puppeteer-xpath": "^0.1.0"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.26.0",
+      "babel-core": "^6.26.0",
+      "babel-eslint": "^8.2.1",
+      "babel-plugin-transform-object-rest-spread": "^6.26.0",
+      "babel-preset-env": "^1.6.1"
+    }
+  }
+  
