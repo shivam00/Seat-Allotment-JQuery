@@ -101,6 +101,7 @@ sc.find('selected').each(function () {
     total += this.data().price;
 });
 
+
 return total;
 }
 ;
